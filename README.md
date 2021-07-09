@@ -9,6 +9,8 @@ Caesar Cipher is used to shift a string such as "cat" by a key such as "c".
 
 Each letter of the alphabet defines how much the string should be shifted by, starting at A = 0 through to Z = 25. 
 
+It can also work with multiple different keys. It can shift the string "cat" by a key such as "cat" which will shift each letter by the corrosponding key and will loop back through the string until its finished. So shifting "cat" by "cat" will turn the string into "eam"
+
 ### Encryption Examples
 
 Shifting the string "cat" by the key "c" which equals to 2 would shift the string to "ecv". 
